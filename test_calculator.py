@@ -7,8 +7,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_add(self):
         result = add(3,5) 
-        excepted = 8                       #thats was given in the pdf 
-        self.assertEqual(result,excepted)
+        expected = 8                       #thats was given in the pdf 
+        self.assertEqual(result,expected)
         # self.assertEqual(add(3, 5), 8)
         self.assertEqual(add(-1, 1), 0)
         self.assertEqual(add(0, 0), 0)

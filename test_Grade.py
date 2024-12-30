@@ -1,7 +1,8 @@
 
 # Test cases
 import unittest
-from Grade import  add_grade, average_grade, highest_grade, lowest_grade
+from Grade import Student
+
 class TestStudent(unittest.TestCase):
     def test_add_grade_valid(self):
         student = Student("Alice")
